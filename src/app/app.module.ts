@@ -4,16 +4,17 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GitSearchComponent } from './git-search/git-search.component';
-import { RoutingComponent } from './routing/routing.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { SearchFormComponent } from './search-form/search-form.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     GitSearchComponent,
-    RoutingComponent,
     NavbarComponent,
+    SearchFormComponent,
   ],
   imports: [
     BrowserModule,
