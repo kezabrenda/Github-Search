@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GitSearchComponent } from './git-search/git-search.component';
 import { RoutingComponent } from './routing/routing.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 @NgModule({
@@ -12,6 +13,7 @@ import { RoutingComponent } from './routing/routing.component';
     AppComponent,
     GitSearchComponent,
     RoutingComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
